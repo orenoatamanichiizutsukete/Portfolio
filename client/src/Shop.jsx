@@ -4,7 +4,7 @@ import "./Shop.css"
 
 function CATALOG(){
     return <div>
-        <div img ={DaImage} alt="RAH RAH DA THUMBNAIL"></div>
+        <div img src={DaImage} alt="RAH RAH DA THUMBNAIL"></div>
         <button>CLICK TO BUY</button>
         </div>
 }

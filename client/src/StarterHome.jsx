@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 function StarterHome(){
     console.log("every variable")
     const navigate = useNavigate();
-    navigate("/home", {replace: true})
+    navigate("/Home", {replace: true})
     async () =>{
         
     return await fetch("api/Controlling") 

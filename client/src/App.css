@@ -16,7 +16,23 @@
     outline-offset: 2px;
   }
 }
+.NavText{
+  margin: 0 0;
+  height: auto;
+  width: 5000px;
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+}
+.NavBar{
+  z-index: 1;
+  background-color: rgba(83, 83, 83,0.3);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  height: 50px;
 
+}
 .hero {
   position: relative;
 
@@ -55,7 +71,11 @@
       scale(0.8);
   }
 }
-
+#root{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(250,103,134,1);
+}
 #center {
   display: flex;
   flex-direction: column;
