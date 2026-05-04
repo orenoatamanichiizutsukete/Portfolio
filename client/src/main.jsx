@@ -11,7 +11,6 @@ document.body.style.cssText=""
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
 <LoginArea></LoginArea>
-    <NavBar></NavBar>
     <App />
   </BrowserRouter>
 )

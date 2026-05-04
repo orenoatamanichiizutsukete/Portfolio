@@ -56,7 +56,6 @@
 
 
 body {
-    display: flex;
     background-color: black;
     background-image: 
     linear-gradient(rgba(255, 255, 255, 0.945)),
@@ -74,6 +73,7 @@ body {
 #LoadingBackground{
   background-image: none;
 }
+
 html{
     background-image: 
     linear-gradient(rgba(255, 255, 255, 0.945)),

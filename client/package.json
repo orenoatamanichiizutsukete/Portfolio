@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "cors": "^2.8.6",
+    "fluid-canvas": "^0.9.3",
     "oauth": "^0.10.2",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",

@@ -113,11 +113,6 @@ function App() {
     <Route element={<Layout></Layout>}></Route>
     <Route path="/" element={<StarterHome></StarterHome>}></Route>
     <Route path="/Home" element={<Home></Home>}></Route>
-    <Route path="/Goals" element={<Goals></Goals>}></Route>
-    <Route path="/About" element={<About></About>}></Route>
-    <Route path="/Projects" element={<Projects></Projects>}></Route>
-    <Route path="*" element={<NotFound></NotFound>}></Route>
-
     </Routes>
 
 
